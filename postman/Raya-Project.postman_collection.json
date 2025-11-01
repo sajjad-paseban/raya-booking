@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "eeb66103-eaac-43db-b9b5-21358d9d6e60",
+		"name": "Raya-Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "42454787"
+	},
+	"item": [
+		{
+			"name": "rooms",
+			"item": [
+				{
+					"name": "index",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "booking",
+			"item": [
+				{
+					"name": "index",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "store",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "{{base_url}}/booking"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
